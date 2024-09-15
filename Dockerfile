@@ -1,5 +1,5 @@
 # Use a base image
-FROM ubuntu:20.04
+FROM ubuntu:24.04
 
 # Update and install dependencies
 RUN apt-get update
