@@ -9,5 +9,5 @@ RUN DEBIAN_FRONTEND=noninteractive TZ=US/Central \
     libxft-dev libxcursor-dev libxext-dev libxfixes-dev libxi-dev libxinerama-dev libxrandr-dev \
     libxxf86vm-dev libfreetype6-dev libfontconfig1-dev coreutils desktop-file-utils fakeroot fuse \
     libgdk-pixbuf2.0-dev patchelf python3-pip python3-setuptools squashfs-tools strace util-linux \
-    zsync imagemagick-6.q16hdri \
+    zsync imagemagick-6.q16hdri wget \
     && rm -rf /var/lib/apt/lists/*
